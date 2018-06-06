@@ -4,6 +4,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
   entry: {
     "sample-react-app": "./source/sample-react-app/index.jsx",
+    "sample-preact-app": "./source/sample-preact-app/index.jsx",
     "sample-vue-app": "./source/sample-vue-app/index.js"
   },
   output: {

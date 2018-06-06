@@ -4,7 +4,8 @@
       <a class="navbar-brand" href="https://edamtoft.github.io/webpack-multiframework">Multi-Framework Sample</a>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a class="nav-link" href="../sample-vue-app/index.html">Vue</a></li>
-        <li class="nav-item"><a class="nav-link mr-auto" href="../sample-react-app/index.html">React</a></li>
+        <li class="nav-item"><a class="nav-link" href="../sample-react-app/index.html">React</a></li>
+        <li class="nav-item"><a class="nav-link" href="../sample-preact-app/index.html">Preact</a></li>
       </ul>
     </div>
   </nav>
