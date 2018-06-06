@@ -1,21 +1,25 @@
 {
   "name": "webpacksample",
   "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
+  "description": "A sample which uses a single webpack configuration to build a react and vue application with shared resources.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edamtoft/webpack-multiframework"
+  },
   "scripts": {
     "build": "webpack --mode development",
     "watch": "webpack --mode development --watch",
     "build-prod": "webpack --mode production"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Eric Damtoft",
+  "license": "MIT",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
     "vue-loader": "^15.2.4",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.11.1",
